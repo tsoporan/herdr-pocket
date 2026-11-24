@@ -1,0 +1,16 @@
+⏺ Added a token bucket per API key in src/middleware/ratelimit.ts and wired
+  it into the /v2 router.
+
+⏺ Bash(bun test test/ratelimit.test.ts)
+  ⎿  bun test v1.4.5
+     test/ratelimit.test.ts:
+     ✓ allows requests under the limit [2.1ms]
+     ✓ returns 429 with Retry-After over the limit [1.4ms]
+     … +6 lines (ctrl+o to expand)
+
+✻ Running tests… (2m 14s · ↓ 3.1k tokens · esc to interrupt)
+
+────────────────────────────────────────────────────────────────────────────────
+>
+────────────────────────────────────────────────────────────────────────────────
+  ⏵⏵ accept edits on (shift+tab to cycle)

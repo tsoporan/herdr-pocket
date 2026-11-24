@@ -1,0 +1,16 @@
+● I'll set up the breakfast demo. Two quick choices first.
+
+────────────────────────────────────────────────────────────────────────────────
+←  ☐ Fruit  ☐ Drink  ✔ Submit  →
+
+Which fruit?
+
+  1. Apple
+     Red
+  2. Banana
+     Yellow
+❯ 3. Type something.
+────────────────────────────────────────────────────────────────────────────────
+  4. Chat about this
+
+-- INSERT -- · Enter to select · Tab/Arrow keys to navigate · ctrl+g to edit in Nvim

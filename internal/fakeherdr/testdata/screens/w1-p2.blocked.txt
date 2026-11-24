@@ -1,0 +1,16 @@
+⏺ The limiter is wired in. Running its tests a few times to catch flakes.
+
+────────────────────────────────────────────────────────────────────────────────
+ Bash command · Run the rate limiter tests
+ Run the limiter tests three times, then lint
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+ │ bun test test/ratelimit.test.ts --timeout 20000 --rerun-each 3 && bun run lint
+ │ --max-warnings 0
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+ Do you want to proceed?
+ ❯ 1. Yes
+   2. Yes, and don’t ask again for: bun test *
+   3. No
+
+ Esc to cancel · Tab to amend
+────────────────────────────────────────────────────────────────────── default ─

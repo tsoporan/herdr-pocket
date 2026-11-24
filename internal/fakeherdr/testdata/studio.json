@@ -1,0 +1,352 @@
+{
+  "workspaces": [
+    {
+      "workspace_id": "w1",
+      "number": 1,
+      "label": "api",
+      "focused": true,
+      "pane_count": 3,
+      "tab_count": 3,
+      "active_tab_id": "w1:t2",
+      "agent_status": "blocked"
+    },
+    {
+      "workspace_id": "w2",
+      "number": 2,
+      "label": "infra",
+      "focused": false,
+      "pane_count": 2,
+      "tab_count": 2,
+      "active_tab_id": "w2:t1",
+      "agent_status": "blocked"
+    },
+    {
+      "workspace_id": "w3",
+      "number": 3,
+      "label": "web",
+      "focused": false,
+      "pane_count": 2,
+      "tab_count": 2,
+      "active_tab_id": "w3:t1",
+      "agent_status": "done"
+    },
+    {
+      "workspace_id": "w4",
+      "number": 4,
+      "label": "docs",
+      "focused": false,
+      "pane_count": 2,
+      "tab_count": 2,
+      "active_tab_id": "w4:t1",
+      "agent_status": "working"
+    }
+  ],
+  "tabs": [
+    {
+      "tab_id": "w1:t1",
+      "workspace_id": "w1",
+      "number": 1,
+      "label": "Refactor auth middleware",
+      "focused": false,
+      "pane_count": 1,
+      "agent_status": "blocked"
+    },
+    {
+      "tab_id": "w1:t2",
+      "workspace_id": "w1",
+      "number": 2,
+      "label": "Add rate limiting to /v2",
+      "focused": true,
+      "pane_count": 1,
+      "agent_status": "working"
+    },
+    {
+      "tab_id": "w1:t3",
+      "workspace_id": "w1",
+      "number": 3,
+      "label": "Bump deps and changelog",
+      "focused": false,
+      "pane_count": 1,
+      "agent_status": "idle"
+    },
+    {
+      "tab_id": "w2:t1",
+      "workspace_id": "w2",
+      "number": 1,
+      "label": "Migrate to Postgres 18",
+      "focused": false,
+      "pane_count": 1,
+      "agent_status": "blocked"
+    },
+    {
+      "tab_id": "w2:t2",
+      "workspace_id": "w2",
+      "number": 2,
+      "label": "Investigate memory leak",
+      "focused": false,
+      "pane_count": 1,
+      "agent_status": "working"
+    },
+    {
+      "tab_id": "w3:t1",
+      "workspace_id": "w3",
+      "number": 1,
+      "label": "Fix flaky checkout test",
+      "focused": false,
+      "pane_count": 1,
+      "agent_status": "done"
+    },
+    {
+      "tab_id": "w3:t2",
+      "workspace_id": "w3",
+      "number": 2,
+      "label": "Dark mode for settings",
+      "focused": false,
+      "pane_count": 1,
+      "agent_status": "working"
+    },
+    {
+      "tab_id": "w4:t1",
+      "workspace_id": "w4",
+      "number": 1,
+      "label": "API reference cleanup",
+      "focused": false,
+      "pane_count": 1,
+      "agent_status": "working"
+    },
+    {
+      "tab_id": "w4:t2",
+      "workspace_id": "w4",
+      "number": 2,
+      "label": "Write onboarding guide",
+      "focused": false,
+      "pane_count": 1,
+      "agent_status": "idle"
+    }
+  ],
+  "agents": [
+    {
+      "pane_id": "w1:p1",
+      "tab_id": "w1:t1",
+      "workspace_id": "w1",
+      "terminal_id": "term_5e00c0de0001a1",
+      "name": "Refactor auth middleware",
+      "agent": "claude",
+      "agent_status": "blocked",
+      "agent_session": {
+        "source": "herdr:claude",
+        "agent": "claude",
+        "kind": "id",
+        "value": "0f3c9a2e-7b41-4d6a-9e10-000000000001"
+      },
+      "terminal_title": "✳ Refactor auth middleware",
+      "terminal_title_stripped": "Refactor auth middleware",
+      "cwd": "/home/dev/src/api",
+      "foreground_cwd": "/home/dev/src/api",
+      "focused": false,
+      "revision": 47,
+      "state_change_seq": 110,
+      "tokens": {
+        "ctx": "88k",
+        "pr": "#52 draft"
+      }
+    },
+    {
+      "pane_id": "w1:p2",
+      "tab_id": "w1:t2",
+      "workspace_id": "w1",
+      "terminal_id": "term_5e00c0de0002a1",
+      "name": "Add rate limiting to /v2",
+      "agent": "claude",
+      "agent_status": "working",
+      "agent_session": {
+        "source": "herdr:claude",
+        "agent": "claude",
+        "kind": "id",
+        "value": "0f3c9a2e-7b41-4d6a-9e10-000000000002"
+      },
+      "terminal_title": "⠂ Running tests",
+      "terminal_title_stripped": "Running tests",
+      "cwd": "/home/dev/src/api",
+      "foreground_cwd": "/home/dev/src/api",
+      "focused": true,
+      "revision": 54,
+      "state_change_seq": 114,
+      "tokens": {
+        "ctx": "27%",
+        "pr": "#51 · checks running"
+      }
+    },
+    {
+      "pane_id": "w1:p3",
+      "tab_id": "w1:t3",
+      "workspace_id": "w1",
+      "terminal_id": "term_5e00c0de0003a1",
+      "name": "Bump deps and changelog",
+      "agent": "claude",
+      "agent_status": "idle",
+      "agent_session": {
+        "source": "herdr:claude",
+        "agent": "claude",
+        "kind": "id",
+        "value": "0f3c9a2e-7b41-4d6a-9e10-000000000003"
+      },
+      "terminal_title": "✳ Bump deps and changelog",
+      "terminal_title_stripped": "Bump deps and changelog",
+      "cwd": "/home/dev/src/api",
+      "foreground_cwd": "/home/dev/src/api",
+      "focused": false,
+      "revision": 61,
+      "state_change_seq": 101,
+      "tokens": {
+        "ctx": "34k",
+        "pr": "#47 merged ✓"
+      },
+      "completion_seq": 101
+    },
+    {
+      "pane_id": "w2:p1",
+      "tab_id": "w2:t1",
+      "workspace_id": "w2",
+      "terminal_id": "term_5e00c0de0004a1",
+      "name": "Migrate to Postgres 18",
+      "agent": "claude",
+      "agent_status": "blocked",
+      "agent_session": {
+        "source": "herdr:claude",
+        "agent": "claude",
+        "kind": "id",
+        "value": "0f3c9a2e-7b41-4d6a-9e10-000000000004"
+      },
+      "terminal_title": "✳ Migrate to Postgres 18",
+      "terminal_title_stripped": "Migrate to Postgres 18",
+      "cwd": "/home/dev/src/infra",
+      "foreground_cwd": "/home/dev/src/infra",
+      "focused": false,
+      "revision": 68,
+      "state_change_seq": 108,
+      "tokens": {
+        "ctx": "67k"
+      }
+    },
+    {
+      "pane_id": "w2:p2",
+      "tab_id": "w2:t2",
+      "workspace_id": "w2",
+      "terminal_id": "term_5e00c0de0005a1",
+      "name": "Investigate memory leak",
+      "agent": "claude",
+      "agent_status": "working",
+      "agent_session": {
+        "source": "herdr:claude",
+        "agent": "claude",
+        "kind": "id",
+        "value": "0f3c9a2e-7b41-4d6a-9e10-000000000005"
+      },
+      "terminal_title": "⠂ Reading the WebSocket hub",
+      "terminal_title_stripped": "Reading the WebSocket hub",
+      "cwd": "/home/dev/src/infra",
+      "foreground_cwd": "/home/dev/src/infra",
+      "focused": false,
+      "revision": 75,
+      "state_change_seq": 113,
+      "tokens": {
+        "ctx": "140k"
+      }
+    },
+    {
+      "pane_id": "w3:p1",
+      "tab_id": "w3:t1",
+      "workspace_id": "w3",
+      "terminal_id": "term_5e00c0de0006a1",
+      "name": "Fix flaky checkout test",
+      "agent": "claude",
+      "agent_status": "done",
+      "agent_session": {
+        "source": "herdr:claude",
+        "agent": "claude",
+        "kind": "id",
+        "value": "0f3c9a2e-7b41-4d6a-9e10-000000000006"
+      },
+      "terminal_title": "✳ Fix flaky checkout test",
+      "terminal_title_stripped": "Fix flaky checkout test",
+      "cwd": "/home/dev/src/web",
+      "foreground_cwd": "/home/dev/src/web",
+      "focused": false,
+      "revision": 82,
+      "state_change_seq": 115,
+      "tokens": {
+        "ctx": "58k",
+        "pr": "#48 ready ✓"
+      },
+      "completion_seq": 115
+    },
+    {
+      "pane_id": "w3:p2",
+      "tab_id": "w3:t2",
+      "workspace_id": "w3",
+      "terminal_id": "term_5e00c0de0007a1",
+      "name": "Dark mode for settings",
+      "agent": "claude",
+      "agent_status": "working",
+      "agent_session": {
+        "source": "herdr:claude",
+        "agent": "claude",
+        "kind": "id",
+        "value": "0f3c9a2e-7b41-4d6a-9e10-000000000007"
+      },
+      "terminal_title": "⠂ Checking colour contrast",
+      "terminal_title_stripped": "Checking colour contrast",
+      "cwd": "/home/dev/src/web",
+      "foreground_cwd": "/home/dev/src/web",
+      "focused": false,
+      "revision": 89,
+      "state_change_seq": 112,
+      "tokens": {
+        "ctx": "73k"
+      }
+    },
+    {
+      "pane_id": "w4:p1",
+      "tab_id": "w4:t1",
+      "workspace_id": "w4",
+      "terminal_id": "term_5e00c0de0008a1",
+      "name": "API reference cleanup",
+      "agent": "claude",
+      "agent_status": "working",
+      "agent_session": {
+        "source": "herdr:claude",
+        "agent": "claude",
+        "kind": "id",
+        "value": "0f3c9a2e-7b41-4d6a-9e10-000000000008"
+      },
+      "terminal_title": "⠂ Writing examples",
+      "terminal_title_stripped": "Writing examples",
+      "cwd": "/home/dev/src/docs",
+      "foreground_cwd": "/home/dev/src/docs",
+      "focused": false,
+      "revision": 96,
+      "state_change_seq": 111,
+      "tokens": {
+        "ctx": "51k"
+      }
+    },
+    {
+      "pane_id": "w4:p2",
+      "tab_id": "w4:t2",
+      "workspace_id": "w4",
+      "terminal_id": "term_5e00c0de0009a1",
+      "name": "Write onboarding guide",
+      "agent": "codex",
+      "agent_status": "idle",
+      "terminal_title": "Write onboarding guide",
+      "terminal_title_stripped": "Write onboarding guide",
+      "cwd": "/home/dev/src/docs",
+      "foreground_cwd": "/home/dev/src/docs",
+      "focused": false,
+      "revision": 103,
+      "state_change_seq": 104,
+      "completion_seq": 104
+    }
+  ]
+}

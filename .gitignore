@@ -1,0 +1,6 @@
+/bin/
+web/node_modules/
+web/dist/*
+!web/dist/.keep
+web/scripts/icons/out/
+__pycache__/

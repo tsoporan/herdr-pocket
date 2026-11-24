@@ -1,0 +1,15 @@
+⏺ The schema diff is ready: 14 tables, 2 need a rewrite for the new
+  identity columns. Before I run anything I need to know where to start.
+
+────────────────────────────────────────────────────────────────────────────────
+ ☐ Environment
+
+Which database should I migrate to Postgres 18 first?
+
+❯ 1. staging
+     Shared staging cluster; a full rehearsal with real-sized data
+  2. dev
+     Local dev database only; fast, but small data
+  3. Type something.
+
+Enter to select · ↑/↓ to navigate · Esc to cancel

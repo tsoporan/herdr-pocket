@@ -1,0 +1,16 @@
+› Write an onboarding guide for new engineers
+
+• Explored
+  └ Read README.md, docs/setup.md, docs/release.md
+
+• Edited docs/onboarding.md (+64 -0)
+
+• The onboarding guide is in docs/onboarding.md. It has three parts:
+
+  1. Setup: clone, install the toolchain with mise, run the tests.
+  2. The release process, from a tagged commit to the changelog.
+  3. Who to ask about the API, the web app and the infra.
+
+  I left out the on-call rota; docs/oncall.md already covers it.
+
+›

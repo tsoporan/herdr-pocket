@@ -1,0 +1,16 @@
+● I'll set up the breakfast demo. Two quick choices first.
+
+────────────────────────────────────────────────────────────────────────────────
+←  ☒ Fruit  ☐ Drink  ✔ Submit  →
+
+Which drink?
+
+❯ 1. Tea
+     Hot
+  2. Juice
+     Cold
+  3. Type something.
+────────────────────────────────────────────────────────────────────────────────
+  4. Chat about this
+
+Enter to select · Tab/Arrow keys to navigate · Esc to cancel

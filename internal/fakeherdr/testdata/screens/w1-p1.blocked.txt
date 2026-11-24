@@ -1,0 +1,20 @@
+⏺ The auth tests pass (212 of 212). I'll rebuild the bundle to check its size,
+  which deletes the old build first.
+
+✻ Baked for 2m 10s
+
+────────────────────────────────────────────────────────────────────────────────
+ Bash command · Rebuild the bundle
+ Clean the old bundle and rebuild
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+ │ rm -rf dist && bun run build
+╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌╌
+ rm -rf removes files for good; check the path first.
+
+ Do you want to proceed?
+ ❯ 1. Yes
+   2. Yes, and don’t ask again for: rm -rf dist *
+   3. No
+
+ Esc to cancel · Tab to amend
+────────────────────────────────────────────────────────────────────── default ─

@@ -1,0 +1,10 @@
+[
+  {"after": "0s", "start_delay": "4s"},
+  {"after": "0s", "kind": "codex", "start": "not_ready"},
+  {"after": "0s", "kind": "gemini", "start": "timeout"},
+  {"after": "8s", "pane_id": "w1:p2", "status": "blocked"},
+  {"after": "16s", "pane_id": "w3:p1", "status": "idle"},
+  {"after": "24s", "pane_id": "w1:p1", "status": "working", "title": "Running the auth tests"},
+  {"after": "32s", "pane_id": "w4:p2", "status": "working", "title": "Outlining the guide"},
+  {"after": "40s", "pane_id": "w1:p2", "status": "working", "title": "Running tests"}
+]

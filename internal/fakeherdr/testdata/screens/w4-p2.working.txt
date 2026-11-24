@@ -1,0 +1,10 @@
+› Write an onboarding guide for new engineers
+
+• Explored
+  └ Read README.md, docs/setup.md, docs/release.md
+
+• Outlining the guide: setup first, then releases, then who to ask.
+
+◦ Working (38s • esc to interrupt)
+
+›

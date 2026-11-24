@@ -1,0 +1,14 @@
+● I'll set up the breakfast demo. Two quick choices first.
+
+────────────────────────────────────────────────────────────────────────────────
+←  ☒ Fruit  ☒ Drink  ✔ Submit  →
+
+Review your answers
+
+ ● Which fruit?
+   → Dragon fruit
+ ● Which drink?
+   → Tea
+
+❯ 1. Submit answers
+  2. Cancel

@@ -1,0 +1,7 @@
+⏺ Done. The flaky checkout test waited on a fixed timeout; it now waits for
+  the order-confirmed event instead. 20 runs in a row pass. PR #48 is ready.
+
+────────────────────────────────────────────────────────────────────────────────
+>
+────────────────────────────────────────────────────────────────────────────────
+  ? for shortcuts

@@ -1,0 +1,14 @@
+⏺ The heap grows by about 40 MB an hour on the worker. Comparing two heap
+  snapshots taken ten minutes apart.
+
+⏺ Bash(node --inspect scripts/heap-diff.js snapshots/a.heapsnapshot snapshots/b.heapsnapshot)
+  ⎿  Retained size by constructor (top 5):
+       EventEmitter      +38.2 MB
+       Timeout           +1.1 MB
+     … +3 lines (ctrl+o to expand)
+
+✻ Reading the listener code… (6m 02s · ↓ 9.4k tokens · esc to interrupt)
+
+────────────────────────────────────────────────────────────────────────────────
+>
+────────────────────────────────────────────────────────────────────────────────
